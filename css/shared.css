@@ -92,8 +92,8 @@ body {
 }
 
 .text-container.hero {
-    max-width: 580px;
-    font-size: 55px;
+    max-width: 590px;
+    font-size: 50px;
 }
 
 .column-image {
@@ -141,6 +141,11 @@ body {
     margin-top: 38px;
 }
 
+.title-icon {
+    width: 33px;
+    vertical-align: middle;
+}
+
 @media screen and (max-width: 800px) {
     .navbar, .navbar a.button {
         font-size: 12px;
@@ -165,9 +170,19 @@ body {
         max-width: 100%;
     }
 
-    .text-container, .text-container.hero {
+    .text-container.hero {
+        margin-top: 40px;
+        margin-bottom: 30px;
+        font-size: 8vw;
+    }
+
+    .text-container {
         margin-top: 28px;
         font-size: 9vw;
+    }
+
+    .title-icon {
+        width: 5vw;
     }
 
     .text-container .text-body {
@@ -201,6 +216,10 @@ body {
 
 .green-highlight {
     color: #00AE46;
+}
+
+.health-highlight {
+    color: #FF637F;
 }
 
 .bg-brand {
