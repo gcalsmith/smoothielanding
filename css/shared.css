@@ -231,7 +231,13 @@ a, a:visited {
 }
 
 .bg-dark {
-    background-color: #4E4534;
+    background: 
+    linear-gradient(
+      rgba(78, 69, 52, 0.9), 
+      rgba(78, 69, 52, 0.5)
+    ),
+    url("/img/cows-bg.jpg");
+    background-size: cover;
 }
 
 .bg-nutri {
