@@ -8,6 +8,10 @@ body {
     margin: 0;
 }
 
+a, a:visited {
+    color: black;
+}
+
 .navbar {
     position: fixed;
     top: 0;
