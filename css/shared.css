@@ -150,6 +150,17 @@ a, a:visited {
     vertical-align: middle;
 }
 
+ul {
+    columns: 2;
+    list-style-type: none;
+    opacity: 0.7;
+}
+
+ul a {
+    font-weight: 600;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 800px) {
     .navbar, .navbar a.button {
         font-size: 12px;
